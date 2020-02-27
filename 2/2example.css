@@ -1,0 +1,25 @@
+.container{
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 65px;
+
+    height: 100%;
+    background-color: yellow;
+}
+
+.header{
+    background-color: blue;
+}
+
+.menu{
+    background-color: green;
+}
+
+.content{
+    background-color: red;
+}
+
+.footer{
+    background-color: orange;
+}

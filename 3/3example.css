@@ -1,0 +1,31 @@
+.container{
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 65px;
+    grid-auto-flow: dense;
+
+    height: 100%;
+    background-color: yellow;
+}
+
+.horizontal{
+    background-color: blue;
+    grid-column: span 2;
+}
+
+.vertical{
+    background-color: green;
+    grid-row: span 2;
+
+}
+
+.big{
+    background-color: red;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.normal{
+    background-color: orange;
+}
